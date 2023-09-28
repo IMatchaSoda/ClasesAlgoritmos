@@ -1,0 +1,14 @@
+using System;
+
+namespace tp6
+{
+	/// <summary>
+	/// Description of butakera.
+	/// </summary>
+	public class butaca
+	{
+		public butaca()
+		{
+		}
+	}
+}
