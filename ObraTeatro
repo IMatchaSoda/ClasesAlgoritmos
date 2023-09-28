@@ -1,0 +1,14 @@
+using System;
+
+namespace tp6
+{
+	/// <summary>
+	/// Description of ObraTeatro.
+	/// </summary>
+	public class ObraTeatro:Espectaculo
+	{
+		public ObraTeatro():base()
+		{
+		}
+	}
+}
