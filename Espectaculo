@@ -1,0 +1,14 @@
+using System;
+
+namespace tp6
+{
+	/// <summary>
+	/// Description of Espectaculo.
+	/// </summary>
+	public class Espectaculo
+	{
+		public Espectaculo()
+		{
+		}
+	}
+}
