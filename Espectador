@@ -1,0 +1,14 @@
+using System;
+
+namespace tp6
+{
+	/// <summary>
+	/// Description of Espectador.
+	/// </summary>
+	public class Espectador
+	{
+		public Espectador()
+		{
+		}
+	}
+}
