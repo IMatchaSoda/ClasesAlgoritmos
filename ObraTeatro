@@ -1,14 +1,40 @@
+*
+ * Created by SharpDevelop.
+ * User: Alumnos
+ * Date: 18/10/2023
+ * Time: 18:52
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
 using System;
+using System.Collections;
 
-namespace tp6
+namespace clase_9
 {
-	/// <summary>
-	/// Description of ObraTeatro.
-	/// </summary>
-	public class ObraTeatro:Espectaculo
+	
+	public class Persona
 	{
-		public ObraTeatro():base()
+		private string nombre,apellido;
+		private int dni;
+		public Persona(string nombre,string apellido,int dni)
 		{
+			this.nombre=nombre;
+			this.apellido=apellido;
+			this.dni=dni;
 		}
+		public string Nombre{
+			get{return nombre;}set{nombre=value;}
+		}
+		public string Apellido{
+			get{return apellido;}set{apellido=value;}
+		}
+		public int DNI{
+			get{return dni;}set{dni=value;}
+		}
+		public override string ToString()
+		{
+			return string.Format("nombre y apellido:{0},{1} dni:{2}",nombre, apellido, dni);
+		} 
+		
 	}
 }
